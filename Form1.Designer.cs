@@ -59,8 +59,9 @@
             // 
             b1.FlatAppearance.BorderSize = 0;
             b1.FlatStyle = FlatStyle.Flat;
-            b1.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            b1.Location = new Point(12, 12);
+            b1.Font = new Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            b1.ForeColor = SystemColors.Desktop;
+            b1.Location = new Point(214, 84);
             b1.Name = "b1";
             b1.Size = new Size(120, 120);
             b1.TabIndex = 0;
@@ -71,8 +72,8 @@
             // 
             b2.FlatAppearance.BorderSize = 0;
             b2.FlatStyle = FlatStyle.Flat;
-            b2.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            b2.Location = new Point(138, 12);
+            b2.Font = new Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            b2.Location = new Point(340, 84);
             b2.Name = "b2";
             b2.Size = new Size(120, 120);
             b2.TabIndex = 1;
@@ -83,8 +84,8 @@
             // 
             b3.FlatAppearance.BorderSize = 0;
             b3.FlatStyle = FlatStyle.Flat;
-            b3.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            b3.Location = new Point(264, 12);
+            b3.Font = new Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            b3.Location = new Point(466, 84);
             b3.Name = "b3";
             b3.Size = new Size(120, 120);
             b3.TabIndex = 2;
@@ -95,8 +96,8 @@
             // 
             b4.FlatAppearance.BorderSize = 0;
             b4.FlatStyle = FlatStyle.Flat;
-            b4.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            b4.Location = new Point(12, 138);
+            b4.Font = new Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            b4.Location = new Point(214, 210);
             b4.Name = "b4";
             b4.Size = new Size(120, 120);
             b4.TabIndex = 3;
@@ -107,8 +108,8 @@
             // 
             b5.FlatAppearance.BorderSize = 0;
             b5.FlatStyle = FlatStyle.Flat;
-            b5.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            b5.Location = new Point(138, 138);
+            b5.Font = new Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            b5.Location = new Point(340, 210);
             b5.Name = "b5";
             b5.Size = new Size(120, 120);
             b5.TabIndex = 4;
@@ -119,8 +120,8 @@
             // 
             b6.FlatAppearance.BorderSize = 0;
             b6.FlatStyle = FlatStyle.Flat;
-            b6.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            b6.Location = new Point(264, 138);
+            b6.Font = new Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            b6.Location = new Point(466, 210);
             b6.Name = "b6";
             b6.Size = new Size(120, 120);
             b6.TabIndex = 5;
@@ -131,8 +132,8 @@
             // 
             b7.FlatAppearance.BorderSize = 0;
             b7.FlatStyle = FlatStyle.Flat;
-            b7.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            b7.Location = new Point(12, 264);
+            b7.Font = new Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            b7.Location = new Point(214, 336);
             b7.Name = "b7";
             b7.Size = new Size(120, 120);
             b7.TabIndex = 6;
@@ -143,8 +144,8 @@
             // 
             b8.FlatAppearance.BorderSize = 0;
             b8.FlatStyle = FlatStyle.Flat;
-            b8.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            b8.Location = new Point(138, 264);
+            b8.Font = new Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            b8.Location = new Point(340, 336);
             b8.Name = "b8";
             b8.Size = new Size(120, 120);
             b8.TabIndex = 7;
@@ -155,8 +156,8 @@
             // 
             b9.FlatAppearance.BorderSize = 0;
             b9.FlatStyle = FlatStyle.Flat;
-            b9.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            b9.Location = new Point(264, 264);
+            b9.Font = new Font("Arial Black", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            b9.Location = new Point(466, 336);
             b9.Name = "b9";
             b9.Size = new Size(120, 120);
             b9.TabIndex = 8;
@@ -166,7 +167,7 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = SystemColors.WindowText;
-            pictureBox1.Location = new Point(121, 12);
+            pictureBox1.Location = new Point(323, 84);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(25, 372);
             pictureBox1.TabIndex = 9;
@@ -175,7 +176,7 @@
             // pictureBox2
             // 
             pictureBox2.BackColor = SystemColors.WindowText;
-            pictureBox2.Location = new Point(246, 12);
+            pictureBox2.Location = new Point(448, 84);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(25, 372);
             pictureBox2.TabIndex = 10;
@@ -184,7 +185,7 @@
             // pictureBox3
             // 
             pictureBox3.BackColor = SystemColors.WindowText;
-            pictureBox3.Location = new Point(12, 252);
+            pictureBox3.Location = new Point(214, 324);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(372, 25);
             pictureBox3.TabIndex = 11;
@@ -193,7 +194,7 @@
             // pictureBox4
             // 
             pictureBox4.BackColor = SystemColors.WindowText;
-            pictureBox4.Location = new Point(12, 124);
+            pictureBox4.Location = new Point(214, 196);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(372, 25);
             pictureBox4.TabIndex = 12;
@@ -202,7 +203,7 @@
             // RestartButton
             // 
             RestartButton.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            RestartButton.Location = new Point(480, 377);
+            RestartButton.Location = new Point(317, 506);
             RestartButton.Name = "RestartButton";
             RestartButton.Size = new Size(168, 46);
             RestartButton.TabIndex = 13;
@@ -214,7 +215,7 @@
             // 
             labelPlayer.AutoSize = true;
             labelPlayer.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            labelPlayer.Location = new Point(480, 38);
+            labelPlayer.Location = new Point(311, 9);
             labelPlayer.Name = "labelPlayer";
             labelPlayer.Size = new Size(127, 54);
             labelPlayer.TabIndex = 9;
@@ -224,7 +225,7 @@
             // 
             labelMove.AutoSize = true;
             labelMove.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            labelMove.Location = new Point(613, 38);
+            labelMove.Location = new Point(432, 9);
             labelMove.Name = "labelMove";
             labelMove.Size = new Size(53, 54);
             labelMove.TabIndex = 14;
@@ -234,7 +235,7 @@
             // 
             labelScore.AutoSize = true;
             labelScore.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            labelScore.Location = new Point(497, 107);
+            labelScore.Location = new Point(25, 150);
             labelScore.Name = "labelScore";
             labelScore.Size = new Size(142, 54);
             labelScore.TabIndex = 15;
@@ -244,7 +245,7 @@
             // 
             labelO.AutoSize = true;
             labelO.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            labelO.Location = new Point(438, 171);
+            labelO.Location = new Point(47, 210);
             labelO.Name = "labelO";
             labelO.Size = new Size(64, 54);
             labelO.TabIndex = 16;
@@ -254,7 +255,7 @@
             // 
             labelX.AutoSize = true;
             labelX.Font = new Font("Segoe UI", 30F, FontStyle.Bold, GraphicsUnit.Point);
-            labelX.Location = new Point(588, 171);
+            labelX.Location = new Point(47, 264);
             labelX.Name = "labelX";
             labelX.Size = new Size(60, 54);
             labelX.TabIndex = 17;
@@ -264,7 +265,7 @@
             // 
             scoreO.AutoSize = true;
             scoreO.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
-            scoreO.Location = new Point(497, 171);
+            scoreO.Location = new Point(104, 210);
             scoreO.Name = "scoreO";
             scoreO.Size = new Size(45, 54);
             scoreO.TabIndex = 18;
@@ -274,7 +275,7 @@
             // 
             scoreX.AutoSize = true;
             scoreX.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
-            scoreX.Location = new Point(637, 171);
+            scoreX.Location = new Point(104, 264);
             scoreX.Name = "scoreX";
             scoreX.Size = new Size(45, 54);
             scoreX.TabIndex = 19;
@@ -284,7 +285,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(738, 435);
+            ClientSize = new Size(762, 568);
             Controls.Add(scoreX);
             Controls.Add(scoreO);
             Controls.Add(labelX);

@@ -10,14 +10,14 @@ namespace TicTacToe
         }
 
         bool player = true;
-        int m = 0;
+        int move = 0;
 
         private void Mark(object sender, EventArgs e)
         {
-            m++;
+            move++;
             ((Button)sender).Text = player ? "O" : "X";
             ((Button)sender).Enabled = false;
-            if (m >= 5)
+            if (move >= 5)
             {
                 CheckForWinner();
             }
@@ -39,7 +39,7 @@ namespace TicTacToe
             {
                 Win();
             }
-            else if (m == 9)
+            else if (move == 9)
             {
                 MessageBox.Show("Remis", "Koniec gry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 Restart();
@@ -56,7 +56,7 @@ namespace TicTacToe
 
         private void Restart()
         {
-            m = 0;
+            move = 0;
             Button[] all = new Button[9];
             all[0] = b1;
             all[1] = b2;
@@ -67,7 +67,7 @@ namespace TicTacToe
             all[6] = b7;
             all[7] = b8;
             all[8] = b9;
-            // ...make it again clickable and empty
+
             foreach (Button b in all)
             {
                 b.Enabled = true;
